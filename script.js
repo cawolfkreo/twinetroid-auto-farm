@@ -16,7 +16,7 @@ function autoFarm() {
 			console.log("uh oh! we found an issue:");
 			console.error(e);
 			console.log("stopping the interval...");
-			clearInterval(intervalId );
+			clearInterval(intervalId);
 		}
 	}, 400);
 	console.log("starting to farm...")
