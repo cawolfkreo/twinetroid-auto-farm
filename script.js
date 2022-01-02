@@ -8,7 +8,7 @@ function autoFarm() {
 				document.getElementsByTagName("tw-enchantment")[0].click();
 				console.log("clicked the 'fight' button");
 			} else {
-				console.log("energy is set, we don't need to farm anymore!");
+				console.log("energy thanks filled, we don't need to farm anymore!");
 				clearInterval(intervalId );
 			}
 		}
